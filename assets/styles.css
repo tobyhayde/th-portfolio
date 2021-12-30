@@ -4,6 +4,6 @@ header {
     font-size: larger;
     font-weight: 10px;
 }
-.name-header-section {
+header .name-header-section {
     display: left;
 }
