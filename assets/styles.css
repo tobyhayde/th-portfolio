@@ -1,4 +1,9 @@
-.main-header-section {
-    
-
+header {
+    padding: 20px 80px;
+    background-color: grey;
+    font-size: larger;
+    font-weight: 10px;
+}
+.name-header-section {
+    display: left;
 }
