@@ -8,7 +8,7 @@
    --bg-color: #808080;
    --primary-color: #DC143C;
    --secondary-color: #000000;
-   --primary-shadow: #DC143C;
+   --primary-shadow: #808080;
    --secondary-shadow: #DC143C;
    --bottom-margin: 0.5rem;
    --bottom-margin-2: 1rem;
@@ -102,8 +102,8 @@ nav ul li {
 }
 
 .hero-img {
-    height: 37.5rem;
-    width: 37.5rem;
+    height: 25rem;
+    width: 25rem;
 }
 
 .bio h1 {
