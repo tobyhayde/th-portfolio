@@ -1,9 +1,47 @@
-header {
-    padding: 20px 80px;
-    background-color: grey;
-    font-size: larger;
-    font-weight: 10px;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* Variables */
+:root {
+   --font-family: 'Open Sans',serif;
+   --normal-font: 400;
+   --bold-font: 700;
+   --bolder-font: 900;
+   --bg-color: #808080;
+   --primary-color: #DC143C;
+   --secondary-color: #000000;
+   --primary-shadow: #000000;
+   --secondary-shadow: #DC143C;
+   --bottom-margin: 0.5rem;
+   --bottom-margin-2: 1rem;
+   --line-height: 1.7rem;
+   --transition: 0z3;
 }
-header .main-header-section {
-    justify-content: space-around;
+/* Variables end */
+
+html {
+    scroll-behavior: smooth;
 }
+
+/* CSS Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+body {
+    font-family: var(--font-family)
+}
+ /* CSS Resets end/*
