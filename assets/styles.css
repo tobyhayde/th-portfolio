@@ -4,6 +4,6 @@ header {
     font-size: larger;
     font-weight: 10px;
 }
-header .name-header-section {
-    display: left;
+header .main-header-section {
+    justify-content: space-around;
 }
