@@ -88,10 +88,10 @@ nav ul li {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 2.5rem;
     max-width: 68.75rem;
-    margin: auto'
+    margin: auto;
 }
 
 .bio {
