@@ -1,7 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 /* Variables */
 :root {
-   --font-family: 'Open Sans',serif;
+   --font-family: helvetica;
    --normal-font: 400;
    --bold-font: 700;
    --bolder-font: 900;
@@ -88,11 +87,21 @@ nav ul li {
     font-weight: var(--bold-font);
 }
 
-.hero {
+.hero-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+.hero-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around;
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
@@ -163,3 +172,4 @@ nav ul li {
 .contact a {
     color: #ffff00
 }
+
