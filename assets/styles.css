@@ -43,6 +43,7 @@ a:hover {
 body {
     font-family: var(--font-family);
     background-color: #000000;
+    font-weight: 700;
 }
 
 /*CSS Reset end*/
@@ -108,8 +109,8 @@ nav ul li {
 }
 
 .bio {
-    width: 24rem;
-    padding: 0.625rem;
+    width: 25rem;
+    padding: 1rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
@@ -126,7 +127,7 @@ nav ul li {
     margin-bottom: var(--bottom-margin);
 }
 
-.bio p {
+.bio ul li {
     line-height: var(--line-height);
     padding: 0.3rem 0;
     color: var(--primary-color);
@@ -140,36 +141,54 @@ nav ul li {
 .projects-title {
     color: var(--bg-color);
     text-align: center;
+    margin-bottom: var(--bottom-margin);
 }
 
 .projects {
     width: max-content;
-    padding: 0.625rem;
+    padding: 1rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
     color: #DC143C;
+}
+
+.projects p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+    color: var(--primary-color);
 }
 
 .projects-box {
     display: flex;
     justify-content: end;
     justify-content: space-around;
+    margin-bottom: var(--bottom-margin);
 }
 
 .contact {
     width: max-content;
-    padding: 0.625rem;
+    padding: 1rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    color: var(--primary-color);
+}
+.contact p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
     color: var(--primary-color);
 }
 
 .contact-title {
     color: var(--bg-color);
     text-align: center;
+    margin-bottom: var(--bottom-margin);
 }
 
+
+
 .contact a {
-    color: #ffff00
+    color: #ffff00;
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
 }
 
