@@ -1,9 +1,6 @@
 /* Variables */
 :root {
    --font-family: helvetica;
-   --normal-font: 400;
-   --bold-font: 700;
-   --bolder-font: 900;
    --bg-color: #808080;
    --primary-color: #DC143C;
    --secondary-color: #000000;
@@ -21,7 +18,6 @@ html {
 }
 
 /* CSS Resets */
-
 * {
     margin: 0;
     padding: 0;
@@ -49,7 +45,6 @@ body {
 /*CSS Reset end*/
 
 /* Nav styles*/
-
 nav {
     position: sticky;
     top: 0;
@@ -131,6 +126,7 @@ nav ul li {
     line-height: var(--line-height);
     padding: 0.3rem 0;
     color: var(--primary-color);
+    text-align: center;
 }
 
 .bio-title {
@@ -156,6 +152,7 @@ nav ul li {
     line-height: var(--line-height);
     padding: 0.3rem 0;
     color: var(--primary-color);
+    text-align: center;
 }
 
 .projects-box {
@@ -176,6 +173,7 @@ nav ul li {
     line-height: var(--line-height);
     padding: 0.3rem 0;
     color: var(--primary-color);
+    text-align: center;
 }
 
 .contact-title {
@@ -190,5 +188,6 @@ nav ul li {
     color: #ffff00;
     line-height: var(--line-height);
     padding: 0.3rem 0;
+    text-align:center;
 }
 
