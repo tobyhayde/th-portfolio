@@ -13,7 +13,7 @@
    --bottom-margin: 0.5rem;
    --bottom-margin-2: 1rem;
    --line-height: 1.7rem;
-   --transition: 0.3s;
+   --transition: 0.1s;
 }
 /* Variables end */
 
@@ -65,15 +65,18 @@ nav {
 
 nav h1 {
     color: var(--secondary-color);
+    font-size: 3rem;
+    font-weight: 100rem;
 }
 
 nav a {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     transition: var(--transition);
+    font-size: 1.2rem;
 }
 nav a:hover {
     color: var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--primary-color);
 }
 
 nav ul {
@@ -87,15 +90,16 @@ nav ul li {
 
 .hero {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
 }
 
 .bio {
-    width: 25rem;
+    width: 24rem;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -104,7 +108,7 @@ nav ul li {
 .hero-img {
     height: 20rem;
     width: 25rem;
-    padding: 0.625rem;
+    padding: 0;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
@@ -130,8 +134,19 @@ nav ul li {
 }
 
 .projects {
-    width: 16rem;
+    width: max-content;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
+
+.projects-box {
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+}
+
+.projects {
+    color:#DC143C;
+}
+
