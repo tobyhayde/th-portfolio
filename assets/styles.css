@@ -64,7 +64,7 @@ nav {
 }
 
 nav h1 {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 nav a {
@@ -102,11 +102,14 @@ nav ul li {
 }
 
 .hero-img {
-    height: 25rem;
+    height: 20rem;
     width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
-.bio h1 {
+.bio h2 {
     margin-bottom: var(--bottom-margin);
 }
 
@@ -118,4 +121,17 @@ nav ul li {
 
 .bio-title {
     color: var(--bg-color);
+    text-align: center;
+}
+
+.projects-title {
+    color: var(--bg-color);
+    text-align: center;
+}
+
+.projects {
+    width: 16rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
