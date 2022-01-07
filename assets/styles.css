@@ -9,7 +9,6 @@
    --bottom-margin: 0.5rem;
    --bottom-margin-2: 1rem;
    --line-height: 1.7rem;
-   --transition: 0.1s;
 }
 /* Variables end */
 
@@ -66,7 +65,7 @@ nav h1 {
 
 nav a {
     color: var(--secondary-color);
-    transition: var(--transition);
+    transition: 0.1s;
     font-size: 1.2rem;
 }
 nav a:hover {
@@ -182,8 +181,6 @@ nav ul li {
     margin-bottom: var(--bottom-margin);
 }
 
-
-
 .contact a {
     color: #ffff00;
     line-height: var(--line-height);
@@ -191,3 +188,41 @@ nav ul li {
     text-align:center;
 }
 
+@media screen and (max-width: 980px) {
+    nav {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    nav {
+        position: sticky;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    nav h1 {
+        font-size: 1rem;
+        font-weight: 100rem;
+    }
+    
+    nav a {
+        font-size: 0.5rem;
+        transition: 0.1s;
+    }
+
+    .hero-img {
+        resize: 110px;
+    }
+
+    .hero-1 .hero-2 {
+        display: flex;
+        justify-content: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
