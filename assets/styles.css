@@ -190,7 +190,7 @@ nav ul li {
     text-align:center;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 500px) {
     nav {
         display: flex;
         flex-direction: column;
