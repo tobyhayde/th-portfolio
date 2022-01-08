@@ -116,6 +116,7 @@ nav ul li {
     padding: 0;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    margin-left: 2rem;
 }
 
 .bio h2 {
@@ -218,17 +219,23 @@ nav ul li {
         transition: 0.1s;
     }
 
+    .mobile-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start
+    }
+
     .hero-img {
         width: 180px;
         height: 180px;
         align-self: flex-start;
-        margin-left: 3.9rem;
     }
 
     .hero-1 {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin-left: 1.8rem;
     }
 
     .bio {
@@ -236,17 +243,19 @@ nav ul li {
         flex-direction: column;
         align-items: flex-start;
         font-size: 20px;
-        margin-left: 2rem;
     }
 
     .bio ul li {
         text-align: center;
     }
+
     .hero-2 {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin-left: 1.8rem;
     }
+
     .projects-box {
         display: flex;
         flex-direction: column;
@@ -256,7 +265,6 @@ nav ul li {
 
     .projects {
         width: 15rem;
-        margin-left: 2rem;
         font-size: 20px;
     };
 
@@ -266,7 +274,7 @@ nav ul li {
     
     .contact {
         width: 14rem;
-        margin-left: 2.4rem;
         font-size: 20px;
+        margin-left: 0.5rem;
     }
 }
