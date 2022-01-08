@@ -103,7 +103,7 @@ nav ul li {
 }
 
 .bio {
-    display: flex;
+    display: block;
     width: 25rem;
     padding: 1rem;
     border-radius: 6px;
@@ -189,7 +189,7 @@ nav ul li {
     text-align:center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     nav {
         display: flex;
         flex-direction: column;
@@ -201,7 +201,7 @@ nav ul li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 5.5rem;
+        margin-left: 5.9rem;
     }
 
     nav h1 {
@@ -209,12 +209,12 @@ nav ul li {
         font-size: 2rem;
         font-weight: 700;
         margin-bottom: 2rem;
-        margin-left: 0.7rem;
+        margin-left: 1.8rem;
         border-bottom: 3px solid #DC143C;
     }
     
     nav a {
-        font-size: 15px;
+        font-size: 20px;
         transition: 0.1s;
     }
 
@@ -222,7 +222,7 @@ nav ul li {
         width: 180px;
         height: 180px;
         align-self: flex-start;
-        margin-left: 3rem;
+        margin-left: 3.9rem;
     }
 
     .hero-1 {
@@ -236,13 +236,37 @@ nav ul li {
         flex-direction: column;
         align-items: flex-start;
         font-size: 20px;
-        margin-left: 1.2rem;
-        
-        
+        margin-left: 2rem;
     }
 
     .bio ul li {
-        text-align: left;
+        text-align: center;
+    }
+    .hero-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .projects-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
     }
 
+    .projects {
+        width: 15rem;
+        margin-left: 2rem;
+        font-size: 20px;
+    };
+
+    .projects-box img {
+        align-self: center;
+    }
+    
+    .contact {
+        width: 14rem;
+        margin-left: 2.4rem;
+        font-size: 20px;
+    }
 }
