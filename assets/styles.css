@@ -198,7 +198,7 @@ nav ul li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 5.9rem;
+        margin-left: 8rem;
     }
 
     nav h1 {
@@ -206,7 +206,7 @@ nav ul li {
         font-size: 2rem;
         font-weight: 700;
         margin-bottom: 2rem;
-        margin-left: 1.8rem;
+        margin-left: 3.4rem;
         border-bottom: 3px solid #DC143C;
     }
     
@@ -225,6 +225,7 @@ nav ul li {
         width: 180px;
         height: 180px;
         align-self: flex-start;
+        margin-left: 3.8rem;
     }
 
     .hero-1 {
@@ -239,6 +240,7 @@ nav ul li {
         flex-direction: column;
         align-items: flex-start;
         font-size: 20px;
+        margin-left: 2.0rem;
     }
 
     .bio ul li {
@@ -262,6 +264,7 @@ nav ul li {
     .projects {
         width: 15rem;
         font-size: 20px;
+        margin-left: 2rem;
     };
 
     .projects-box img {
@@ -271,7 +274,7 @@ nav ul li {
     .contact {
         width: 14rem;
         font-size: 20px;
-        margin-left: 0.5rem;
+        margin-left: 2.5rem;
     }
 }
 /*End css for responsive screen*/
