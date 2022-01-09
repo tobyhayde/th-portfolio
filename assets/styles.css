@@ -1,3 +1,4 @@
+/*root CSS*/
 :root {
    --font-family: helvetica;
    --bg-color: #808080;
@@ -33,7 +34,7 @@ body {
     font-weight: 700;
 }
 
-/* Nav styles*/
+/*nav styles*/
 nav {
     position: sticky;
     top: 0;
@@ -73,7 +74,7 @@ nav ul li {
 }
 /*nav styles end*/
 
-/* profile image and bio section positioning*/
+/*profile image and bio section positioning*/
 .hero-1 {
     display: flex;
     flex-direction: row;
@@ -84,7 +85,7 @@ nav ul li {
     margin: auto;
 }
 
-/* projects and contact section positioning*/
+/*projects and contact section positioning*/
 .hero-2 {
     display: flex;
     flex-direction: column;
@@ -95,7 +96,7 @@ nav ul li {
     margin: auto;
 }
 
-/* styles for each section's content*/
+/*styles for each section's content*/
 .bio {
     display: block;
     width: 25rem;
@@ -148,6 +149,10 @@ nav ul li {
     padding: 0.3rem 0;
     color: var(--primary-color);
     text-align: center;
+}
+
+.projects a {
+    color:#ffff00;
 }
 
 .projects-box {
@@ -265,7 +270,7 @@ nav ul li {
         width: 15rem;
         font-size: 20px;
         margin-left: 2rem;
-    };
+    }
 
     .projects-box img {
         align-self: center;
