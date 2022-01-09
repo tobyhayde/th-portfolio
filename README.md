@@ -6,9 +6,10 @@ I used flex-boxes to position most of the content, along with media queries to m
 #
 Here are screenshots of the website deployed on a desktop and on a mobile screen.
 #
-![tobyhayde github io_th-portfolio_ (2)](https://user-images.githubusercontent.com/95835120/148664001-3f5aaaa7-b146-4230-af5d-9739c1830d92.png)
+![_C__Users_tobyh_OneDrive_Desktop_projects_th-portfolio_index html (1)-final](https://user-images.githubusercontent.com/95835120/148692404-22dc7c45-16c2-43d3-ad34-5b467ee6dd70.png)
 #
-![tobyhayde github io_th-portfolio_](https://user-images.githubusercontent.com/95835120/148664006-03735046-0fc7-44cb-bc5a-5e2faa5e88b4.png)
+![_C__Users_tobyh_OneDrive_Desktop_projects_th-portfolio_index html(iPhone X) (1)-final](https://user-images.githubusercontent.com/95835120/148692511-e7906777-d611-4276-9a46-cb5700026d20.png)
 #
 URL link to deployed application: "https://tobyhayde.github.io/th-portfolio/"
 #
+
